@@ -23,7 +23,7 @@ You will need the following supplies (Found in any standard starter kit.):
 
 •	One Button
 
-You will want to connect your Raspberry Pi in the manner shown below.
+You will want to connect your Raspberry Pi in the manner shown below in files GPIO Connection 1 and GPIO Connection 2.
 
 Before running the code provided, you will first want to run these lines on your Raspberry Pi’s.
 

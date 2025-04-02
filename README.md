@@ -1,5 +1,5 @@
 # Basic-GPIO-LED-Controller
-The project demonstrates how to control an LED with a button on the Raspberry Pi Zero 2 W through the lipgpiod library in C. 
+*The project demonstrates how to control an LED with a button on the Raspberry Pi Zero 2 W through the lipgpiod library in C.*
 
 The code provided will:
 
@@ -7,10 +7,11 @@ The code provided will:
 
 •	The button has two modes: Long press and short press
 
-  o	The short press (1s<)  will double the blinking frequency with each touch.
+----The short press (1s<)  will double the blinking frequency with each touch.
  
-  o	The long press (1s>) will reset the blinking frequency.
+----The long press (1s>) will reset the blinking frequency.
   
+
 You will need the following supplies (Found in any standard starter kit.): 
 
 •	One Solderless Breadboard
@@ -25,16 +26,26 @@ You will need the following supplies (Found in any standard starter kit.):
 
 You will want to connect your Raspberry Pi in the manner shown below in files GPIO Connection 1 and GPIO Connection 2.
 
-Before running the code provided, you will first want to run these lines on your Raspberry Pi’s.
+Before running the code provided, you will first want to run these lines on your Raspberry Pi.
 
-"sudo apt update"
+    sudo apt update
 
-"sudo apt install libgpiod-dev -y"
+    sudo apt install libgpiod-dev -y
 
-Next, do: "nano main.c"
+Next, do:    
+    
+    nano main.c
 
 Now, you are ready to paste the code into the file!
 
-To compile the code: "gcc -o main.c -lgpiod"
+To compile the code: 
 
-Then to run: "./main". If that doesn't work, try "sudo ./main".
+    gcc -o main.c -lgpiod
+
+Then to run: 
+
+    ./main
+    
+If that doesn't work, try:
+    
+    sudo ./main
